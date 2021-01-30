@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <link rel="stylesheet" type="text/css" href="dangki.css">
+</head>
+<body>
+    
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body">
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng Kí</h3>
+                        <button type="button" onclick="dieu_huong()">Đăng nhập</button>
+                <script>
+                    function dieu_huong(){
+                        location.assign("index.html");
+                    }
+                </script>
+                    
+                    </div>
+                
+                    <div class="auth-form__form">
+                        <div class="auth-group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lai mật khẩu">
+                        </div>
+                    </div>
+                
+
+                
+                    <div class="auth-form__controls">
+                        <button type="button" onclick="dieu_huong()">TRỞ LẠI</button>
+                <script>
+                    function dieu_huong(){
+                        location.assign("index.html");
+                    }
+                </script>
+                        <button class="btn btn--primary">ĐĂNG KÍ</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="btn btn--size-s btn--with-icon">
+                        Kết nối với facebook 
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

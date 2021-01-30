@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="login">
+        <h2>login By Minh Vỹ</h2>
+        <div class="enter">
+            <img src="images/user.PNG">
+            <input type="text" placeholder="Tài khoản" > 
+        </div>
+        <div class="enter">
+            <img src="images/pass.PNG">
+            <input type="password" placeholder="Mật khẩu" > 
+        </div>
+
+        <button>Đăng Nhập</button>
+        
+        <div>
+            <p>
+                <button type="button" onclick="dieu_huong()">Đăng kí ngay!</button>
+                <script>
+                    function dieu_huong(){
+                        location.assign("dangki.html");
+                    }
+                </script>
+            </p>
+        </div>    
+    </div>
+
+
+</body>
+</html>
